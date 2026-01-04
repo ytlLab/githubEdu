@@ -86,3 +86,37 @@
 1. 點擊頂部橫條的 **「Push origin」** 按鈕。
 2. 等待上方進度條跑完。
 3. **驗證：** 回到 GitHub 網頁重新整理專案頁面，你就會看到檔案已經更新，且顯示你剛才寫的摘要文字。
+
+---
+
+## 從本地端新建一個Repository到github
+
+從本地端新建一個 Repository 並上傳到 GitHub 的過程，主要分為「本地建立」、「提交」與「發布」三個階段。以下是使用 GitHub Desktop 的操作步驟：
+
+### 第一步：在本地建立新的儲存庫
+
+1. 開啟  **GitHub Desktop** 。
+2. 點擊選單列的 **File** -> **New repository...** (快捷鍵 `Ctrl + N`)。
+3. 在彈出的視窗中填寫：
+   * **Name** : 專案名稱（例如：`my-new-project`）。
+   * **Local Path** : 選擇你電腦中要存放這個專案的資料夾位置。
+   * **Initialize this repository with a README** : 建議勾選，這樣建立後會自動有一個說明檔。
+4. 點擊  **Create repository** 。
+
+### 第二步：添加內容與 Commit (提交)
+
+1. 點擊介面上的 **Open in Visual Studio Code** 來開啟專案。
+2. 在 VS Code 中新增檔案或修改程式碼，完成後按 `Ctrl + S`  **儲存** 。
+3. 回到  **GitHub Desktop** ，你會在左側看到剛才新增的變更。
+4. 在左下角的 **Summary** 欄位輸入這次變更的標題（例如：`Initial commit`）。
+5. 點擊  **Commit to main** 。
+
+### 第三步：發布到 GitHub 網頁 (Publish)
+
+此時儲存庫只存在於你的電腦裡，需要將它推送到雲端：
+
+1. 點擊上方橫條或中間面板的藍色按鈕  **「Publish repository」** 。
+2. 確認視窗中的資訊：
+   * **Name** : 這是顯示在 GitHub 網頁上的名稱。
+   * **Keep this code private** : 如果不希望別人看到你的程式碼，請確保勾選此項。
+3. 點擊  **Publish Repository** 。
