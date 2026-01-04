@@ -6,7 +6,7 @@
 
 預設編輯環境會變成以下圖示
 
-![1767483203524](../image/aboutVscode/1767483203524.png)
+![1767483203524](./image/aboutVscode/1767483203524.png)
 
 也可不安裝第三個套件
 
@@ -54,7 +54,7 @@ VS Code 有時候會針對特定語言停用自動提示。請確認以下兩點
 3. 選擇  **「偏好設定: 開啟設定 (使用者)」(Preferences: Open Settings (UI))** 。
 4. 在上方搜尋列搜尋「Quick Suggestions」
 
-   ![1767484053069](../image/aboutVscode/1767484053069.png)
+   ![1767484053069](./image/aboutVscode/1767484053069.png)
 
 #### 專門針對 Markdown 開啟
 
